@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/still-catwalk-443202-p7/Navdeep-100930795/navdeep:$(COMMIT_SHA)', '.']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/still-catwalk-443202-p7/navdeep-100930795/navdeep:$(COMMIT_SHA)', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/still-catwalk-443202-p7/Navdeep-100930795/navdeep:$(COMMIT_SHA)']
+    args: ['push', 'us-central1-docker.pkg.dev/still-catwalk-443202-p7/navdeep-100930795/navdeep:$(COMMIT_SHA)']
